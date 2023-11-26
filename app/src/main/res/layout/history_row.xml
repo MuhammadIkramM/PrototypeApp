@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/screenshot_"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="174dp"
+            android:background="@drawable/picture1"
+            android:elevation="4dp"
+            />
+
+        <TextView
+            android:id="@+id/tumbler_lok"
+            android:layout_width="189dp"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="textEnd"
+            android:gravity="top"
+            android:text="@string/product1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="190dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/t18_30_45"
+            android:layout_width="127dp"
+            android:layout_height="15dp"
+            android:textAlignment="textEnd"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="@string/historycode"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <View-->
+<!--        android:id="@+id/history_1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="86dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@color/white" />-->
+
+
+</androidx.cardview.widget.CardView>
