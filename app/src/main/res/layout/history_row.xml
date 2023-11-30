@@ -18,53 +18,52 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/screenshot_"
+            android:id="@+id/picture_img"
             android:layout_width="53dp"
             android:layout_height="53dp"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="49dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="174dp"
+            android:layout_marginStart="8dp"
             android:background="@drawable/picture1"
             android:elevation="4dp"
-            />
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/tumbler_lok"
+            android:id="@+id/tv_name"
             android:layout_width="189dp"
             android:layout_height="15dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:textAlignment="textEnd"
             android:gravity="top"
             android:text="@string/product1"
+            android:textAlignment="textEnd"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="190dp"
-            tools:layout_editor_absoluteY="8dp" />
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.944"
+            card_view:layout_constraintStart_toEndOf="@+id/picture_img"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.296" />
 
         <TextView
-            android:id="@+id/t18_30_45"
+            android:id="@+id/tv_val_date"
             android:layout_width="127dp"
             android:layout_height="15dp"
-            android:textAlignment="textEnd"
             android:layout_alignParentTop="true"
             android:gravity="top"
             android:text="@string/historycode"
+            android:textAlignment="textEnd"
             android:textColor="@color/black"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="252dp"
-            tools:layout_editor_absoluteY="38dp" />
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_name"
+            card_view:layout_constraintVertical_bias="0.6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-<!--    <View-->
-<!--        android:id="@+id/history_1"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="86dp"-->
-<!--        android:layout_alignParentTop="true"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:background="@color/white" />-->
-
 
 </androidx.cardview.widget.CardView>

@@ -1,7 +1,48 @@
 <resources>
     <string name="app_name">JustTesting</string>
-    <string name="history">History</string>
     <string name="product1">Tumbler Lokatara by SaeWooden</string>
     <string name="historycode">2023-11-09T18:30:45</string>
-    <string name="profile">Profile</string>
+    <string name="homestring">Home</string>
+    <string name="scanstring">Scan</string>
+    <string name="historystring">History</string>
+    <string name="profilestring">Profile</string>
+
+    <string-array name="data_name">
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+        <item>Healthy skin\'s jamu by Homa Herbs</item>
+    </string-array>
+
+    <string-array name="data_valdate">
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+        <item>2023-11-09T18:30:45</item>
+    </string-array>
+
+    <integer-array name="data_pic">
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+        <item>@drawable/jahe1</item>
+    </integer-array>
 </resources>

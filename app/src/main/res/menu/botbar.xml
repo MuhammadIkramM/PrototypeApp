@@ -3,20 +3,20 @@
     <item
         android:id="@+id/bottom_home"
         android:icon="@drawable/homeico"
-        android:title="Home" />
+        android:title="@string/homestring" />
 
     <item
-        android:id="@+id/bottom_search"
+        android:id="@+id/bottom_scan"
         android:icon="@drawable/settingico"
-        android:title="Scan" />
+        android:title="@string/scanstring" />
 
     <item
-        android:id="@+id/bottom_cart"
-        android:icon="@drawable/homeico"
-        android:title="History" />
+        android:id="@+id/bottom_history"
+        android:icon="@drawable/historyico"
+        android:title="@string/historystring" />
 
     <item
-        android:id="@+id/bottom_setting"
-        android:icon="@drawable/settingico"
-        android:title="Profile" />
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/profileico"
+        android:title="@string/profilestring" />
 </menu>

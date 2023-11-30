@@ -5,7 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/history"
-    tools:context=".MainActivity">
+    tools:context=".HistoryActivity">
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/historystring"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/history_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
@@ -22,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-
+        app:layout_constraintTop_toBottomOf="@+id/history_rv"
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/botbar" />
-</androidx.constraintlayout.widget.ConstraintLayout >
+
+</androidx.constraintlayout.widget.ConstraintLayout>
